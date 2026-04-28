@@ -1,0 +1,22 @@
+Set-Content -Path "C:\Users\radhi\OneDrive\Desktop\HoneyBee\.gitignore" -Value @'
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+*.db
+listings.json
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+'@
+
+git add .gitignore
+git commit -m "Add .gitignore"
+git push
